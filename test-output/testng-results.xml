@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T12:40:06Z" name="Default suite" finished-at="2023-01-09T12:41:41Z" duration-ms="95883">
+    <groups>
+    </groups>
+    <test started-at="2023-01-09T12:40:06Z" name="Default test" finished-at="2023-01-09T12:41:41Z" duration-ms="95883">
+      <class name="com.app.tests.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.app.tests.AppTest@38b27cdc]" started-at="2023-01-09T18:10:06Z" name="setUp" finished-at="2023-01-09T18:10:12Z" duration-ms="6687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc1()[pri:0, instance:com.app.tests.AppTest@38b27cdc]" started-at="2023-01-09T18:10:12Z" name="tc1" finished-at="2023-01-09T18:10:51Z" duration-ms="38362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.AppTest@38b27cdc]" started-at="2023-01-09T18:10:51Z" name="tearDown" finished-at="2023-01-09T18:10:51Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.app.tests.AppTest@38b27cdc]" started-at="2023-01-09T18:10:51Z" name="setUp" finished-at="2023-01-09T18:10:57Z" duration-ms="6241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc2()[pri:0, instance:com.app.tests.AppTest@38b27cdc]" started-at="2023-01-09T18:10:57Z" name="tc2" finished-at="2023-01-09T18:11:41Z" duration-ms="44147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.app.tests.AppTest@38b27cdc]" started-at="2023-01-09T18:11:41Z" name="tearDown" finished-at="2023-01-09T18:11:41Z" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.app.tests.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

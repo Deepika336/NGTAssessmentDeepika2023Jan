@@ -75,10 +75,14 @@ public class AppTest {
 	  loginPage.loginClick();
 	  Thread.sleep(4000);
 	  
+	  
+	  WebElement count1=driver.findElement(By.xpath("//span[@data-reactid=\"904\"]"));
+	  Assert.assertEquals(count1.getText(),"");
+	  Thread.sleep(2000);
 	  homePage.addItem();
-	  WebElement count=driver.findElement(By.xpath("//span[@data-reactid=\"904\"]"));
-	 
-	  Assert.assertEquals(count.getText(),"1");
+	  Thread.sleep(2000);
+	  WebElement count2=driver.findElement(By.xpath("//span[@data-reactid=\"904\"]"));	 
+	  Assert.assertEquals(count2.getText(),"1");
 	  
 	  
 	  
